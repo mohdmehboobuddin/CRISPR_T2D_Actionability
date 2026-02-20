@@ -1,0 +1,5 @@
+*.gtf
+*.gz
+data/annotation/
+data/genes/
+data/expression/GSE81608_human_islets_rpkm.txt

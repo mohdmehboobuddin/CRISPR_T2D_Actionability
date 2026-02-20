@@ -1,0 +1,7 @@
+SNP	Target_Gene	Mapping_Rationale	Tissue	CRISPR_Modality	Functional_Justification
+rs5219	KCNJ11	Coding variant affecting potassium channel	Pancreatic islets	CRISPR knockout	Loss-of-function modeling of coding mutation
+rs10830963	MTNR1B	Islet-specific eQTL	Pancreatic islets	CRISPRi	Regulatory repression of overexpressed risk gene
+rs7756992	CDKAL1	Islet eQTL linked to insulin secretion	Pancreatic islets	CRISPRi	Downregulation of regulatory risk signal
+rs13266634	SLC30A8	Coding missense variant in zinc transporter	Pancreatic islets	CRISPR knockout	Functional disruption of beta-cell zinc transport
+rs7172432	IRS1	Proximal regulatory variant near insulin signaling gene	Pancreatic islets	CRISPRi	Regulatory modulation of insulin signaling
+rs12779790	TCF7L2	Strong enhancer variant in islet chromatin	Pancreatic islets	CRISPRi	Suppression of enhancer-driven TCF7L2 expression

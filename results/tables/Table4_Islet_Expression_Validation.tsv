@@ -1,0 +1,7 @@
+Target_Gene	Mean_RPKM	Expression_Rank	Islet_Expression_Level	Expression_Evidence
+SLC30A8	202.30096912500017	1.0	High	Strong pancreatic islet expression
+TCF7L2	12.752115500000004	2.0	High	Strong pancreatic islet expression
+CDKAL1	9.719386812499993	3.0	Moderate	Moderate pancreatic islet expression
+KCNJ11	3.845518749999999	4.0	Moderate	Moderate pancreatic islet expression
+IRS1	0.5610207499999998	5.0	Low	Low or negligible expression in islets
+MTNR1B	0.03348675	6.0	Low	Low or negligible expression in islets

@@ -1,0 +1,11 @@
+SNP	Variant_Type	Regulatory_Evidence	Tissue_Context	CRISPR_Relevance
+rs10830963	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs12779790	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs13266634	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs1801282	Coding	Protein-coding variant	Pancreatic islets	CRISPR knockout (gene disruption)
+rs4402960	Coding	Protein-coding variant	Pancreatic islets	CRISPR knockout (gene disruption)
+rs5219	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs7172432	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs7756992	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs7903146	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)
+rs972283	Noncoding	GWAS noncoding regulatory variant	Pancreatic islets	CRISPRi / CRISPRa (regulatory modulation)

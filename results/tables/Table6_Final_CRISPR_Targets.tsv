@@ -1,0 +1,7 @@
+Rank	SNP	Target_Gene	CRISPR_Modality	Islet_Expression_Level	CRISPR_Actionability_Score	Functional_Justification
+1	rs13266634	SLC30A8	CRISPRi	High	10	Functional disruption of beta-cell zinc transport
+2	rs12779790	TCF7L2	CRISPRi	High	10	Suppression of enhancer-driven TCF7L2 expression
+3	rs7756992	CDKAL1	CRISPRi	Moderate	10	Downregulation of regulatory risk signal
+4	rs5219	KCNJ11	CRISPRi	Moderate	10	Loss-of-function modeling of coding mutation
+5	rs7172432	IRS1	CRISPRi	Low	10	Regulatory modulation of insulin signaling
+6	rs10830963	MTNR1B	CRISPRi	Low	10	Regulatory repression of overexpressed risk gene

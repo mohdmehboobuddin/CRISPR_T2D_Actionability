@@ -1,0 +1,7 @@
+SNP	Target_Gene	Tissue	CRISPR_Modality	Mean_RPKM	Islet_Expression_Level	CRISPR_Actionability_Score	Priority_Class
+rs5219	KCNJ11	Pancreatic islets	CRISPRi	3.845518749999999	Moderate	10	High Priority
+rs10830963	MTNR1B	Pancreatic islets	CRISPRi	0.03348675	Low	10	High Priority
+rs7756992	CDKAL1	Pancreatic islets	CRISPRi	9.719386812499993	Moderate	10	High Priority
+rs13266634	SLC30A8	Pancreatic islets	CRISPRi	202.30096912500017	High	10	High Priority
+rs7172432	IRS1	Pancreatic islets	CRISPRi	0.5610207499999998	Low	10	High Priority
+rs12779790	TCF7L2	Pancreatic islets	CRISPRi	12.752115500000004	High	10	High Priority

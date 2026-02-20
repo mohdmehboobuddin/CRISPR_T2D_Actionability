@@ -1,0 +1,7 @@
+SNP	Target_Gene	Tissue	CRISPR_Modality	Noncoding_GWAS	Enhancer_Window	Islet_Specific	Metabolic_Gene	CRISPR_Actionability_Score
+rs5219	KCNJ11	Pancreatic islets	CRISPRi	2	3	3	2	10
+rs10830963	MTNR1B	Pancreatic islets	CRISPRi	2	3	3	2	10
+rs7756992	CDKAL1	Pancreatic islets	CRISPRi	2	3	3	2	10
+rs13266634	SLC30A8	Pancreatic islets	CRISPRi	2	3	3	2	10
+rs7172432	IRS1	Pancreatic islets	CRISPRi	2	3	3	2	10
+rs12779790	TCF7L2	Pancreatic islets	CRISPRi	2	3	3	2	10
