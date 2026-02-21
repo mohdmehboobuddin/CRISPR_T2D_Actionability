@@ -1,28 +1,25 @@
-# CRISPR Actionability Framework for Type 2 Diabetes (T2D)
-
-This repository contains the computational workflow used to prioritize genome-wide significant Type 2 Diabetes (T2D) loci for modality-specific CRISPR perturbation.
-
-## Project Overview
-
-The CRISPR Actionability Framework integrates:
-
-- Structural variant classification
-- Pancreatic islet enhancer overlap (H3K27ac)
-- Gene transcription start site (TSS) proximity
-- Islet RNA-seq expression validation
-- Quantitative CRISPR Actionability Scoring (CAS)
-
-The goal is to translate GWAS loci into experimentally actionable CRISPR targets.
-
 ---
 
-## Repository Structure
+## CRISPR Actionability Score (CAS)
 
-data/               → Public reference metadata (no large raw files)  
-processed_data/     → Processed SNP and annotation intersections  
-results/            → Final scoring tables and expression validation outputs  
-figures/            → Publication-ready figures  
-scripts/            → Python scripts for full reproducible workflow  
+Each locus is evaluated across four components:
+
+1. **Genomic Context (0–3)**
+2. **Regulatory Evidence (0–3)**
+3. **Expression Score (0–2)**
+4. **Target Clarity (0–2)**
+
+Maximum score: 10  
+Priority tiers:
+
+- High Priority: CAS ≥ 7  
+- Moderate Priority: CAS = 5–6  
+- Lower Priority: CAS < 5  
+
+CRISPR modality is assigned based on genomic architecture:
+
+- Coding variants → CRISPR knockout  
+- Enhancer-associated non-coding variants → CRISPR interference (CRISPRi)
 
 ---
 
@@ -30,41 +27,35 @@ scripts/            → Python scripts for full reproducible workflow
 
 All analyses were performed using Python and BEDTools.
 
-Main workflow steps:
+### Main Workflow Steps
 
-1. Load curated T2D GWAS SNPs  
-2. Convert SNPs to BED format  
-3. Expand ±50kb regulatory windows  
-4. Intersect with pancreatic islet enhancers  
-5. Extract gene TSS coordinates  
-6. Validate islet gene expression  
-7. Compute CRISPR Actionability Score (CAS)  
+1. Load curated T2D GWAS SNPs
+2. Convert SNPs to BED format
+3. Expand ±50 kb regulatory windows
+4. Intersect with pancreatic islet H3K27ac enhancers
+5. Extract gene TSS coordinates
+6. Validate pancreatic islet gene expression
+7. Compute CRISPR Actionability Score (CAS)
+8. Generate prioritization tables and figures
 
 Processed outputs are available in the `results/` directory.
 
 ---
 
-## Data Sources
+## Software and Computational Environment
 
-Public datasets used:
+Analyses were performed using:
 
-- GWAS meta-analysis summary statistics
-- ENCODE pancreatic islet H3K27ac enhancer data
-- GENCODE gene annotations
-- GEO human pancreatic islet RNA-seq datasets (GSE81608, GSE38642)
+- Python 3.12
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- BEDTools (v2.x)
 
-Due to file size constraints, large raw annotation files are not hosted in this repository and should be downloaded from their respective public sources.
+### Recommended Setup
 
----
-
-## Author
-
-Mohd Mehboob Uddin  
-Department of Life Sciences  
-Osmania University, India  
-
----
-
-## Citation
-
-If you use this framework, please cite the associated manuscript.
+```bash
+python3 -m venv crispr_env
+source crispr_env/bin/activate
+pip install pandas numpy matplotlib seaborn
